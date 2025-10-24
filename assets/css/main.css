@@ -3226,5 +3226,33 @@ input, select, textarea {
 				margin-left: 0;
 				padding-left: 0;
 			}
+.cv-section {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.cv-section h2 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.cv-section p {
+  color: #cccccc;
+  margin-bottom: 20px;
+}
+
+.cv-section .button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cv-section .button:hover {
+  background-color: #45a049;
+}
 
 	}
