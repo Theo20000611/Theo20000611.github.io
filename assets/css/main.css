@@ -2141,10 +2141,19 @@ input, select, textarea {
 				display: none;
 			}
 
-			.image.avatar img {
-				border-radius: 100%;
-				width: 100%;
-			}
+		.image.avatar img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 50% 20%; /* <-- centre ton visage plus haut dans le cadre */
+  border: 3px solid #ffffff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+  margin-bottom: 15px;
+}
+
+}
+
 
 /* List */
 
